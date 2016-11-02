@@ -17,9 +17,10 @@ class MainScene: SKScene {
 
         activeScene = self
         setScale()
-        setTitle(title: "Papa Troll", currScene: self, color: customOrange)
+        setTitle(title: "Papa Troll", currScene: self, color: customPurple)
         setButtons()
-        setBackground()
+        //setBackground()
+        backgroundColor = .white
         checkForNewInstall()
     }
     

@@ -7,22 +7,35 @@
 //
 
 import SpriteKit
-var titleLabel = SKLabelNode()
 
-func setTitle(title: String, currScene: SKScene, color:UIColor = .white) {
+var titleLabel1 = SKLabelNode()
+var titleLabel2 = SKLabelNode()
+
+func setTitle(title: String, currScene: SKScene, color:UIColor = customPurple, color2: UIColor = customGreen) {
     
     //remove any existing title label
-    titleLabel.removeFromParent()
+    titleLabel1.removeFromParent()
+    titleLabel2.removeFromParent()
     
-    //set new title label
-    titleLabel.text = title
-    titleLabel.fontName = trollFont
-    titleLabel.fontColor = color
-    titleLabel.name = "titleLabel"
-    titleLabel.zPosition = 3
-    titleLabel.position = CGPoint(x: currScene.size.width/2, y: currScene.size.height * 0.90)
+    //set new title label with shadow
+    titleLabel1.text = title
+    titleLabel1.fontName = trollFont
+    titleLabel1.fontColor = color
+    titleLabel1.name = "titleLabel"
+    titleLabel1.zPosition = 3
+    titleLabel1.position = CGPoint(x: currScene.size.width/2, y: currScene.size.height * 0.90)
     
-    currScene.addChild(titleLabel)
+    currScene.addChild(titleLabel1)
+    
+    titleLabel2.text = title
+    titleLabel2.fontName = trollFont
+    titleLabel2.fontColor = color2
+    titleLabel2.alpha = 0.6
+    titleLabel2.name = "titleLabel"
+    titleLabel2.zPosition = 2
+    titleLabel2.position = CGPoint(x: currScene.size.width * 0.49, y: currScene.size.height * 0.89)
+    
+    currScene.addChild(titleLabel2)
 }
 
 func newLabel(title: String, size: CGFloat, color:UIColor = customOrange) -> SKLabelNode{

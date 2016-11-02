@@ -19,12 +19,9 @@
 		B50A889A1DC7D9C90051710E /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A88991DC7D9C90051710E /* MainScene.swift */; };
 		B50A889C1DC7DADF0051710E /* PostGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A889B1DC7DADF0051710E /* PostGameScene.swift */; };
 		B50A889E1DC7E0C60051710E /* phantom-fingers.otf in Resources */ = {isa = PBXBuildFile; fileRef = B50A889D1DC7E0C60051710E /* phantom-fingers.otf */; };
-		B50A88A21DC7E7B40051710E /* menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88A11DC7E7B40051710E /* menuButton.png */; };
-		B50A88A41DC7E9A70051710E /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88A31DC7E9A70051710E /* playButton.png */; };
 		B50A88A81DC8D1CC0051710E /* bldg1.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88A71DC8D1CC0051710E /* bldg1.png */; };
 		B50A88AA1DC8D7100051710E /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88A91DC8D70F0051710E /* sky.png */; };
 		B50A88AC1DC8D8C10051710E /* road.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88AB1DC8D8C10051710E /* road.png */; };
-		B50A88AE1DC8DAED0051710E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88AD1DC8DAED0051710E /* backButton.png */; };
 		B50A88B01DC97A3E0051710E /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A88AF1DC97A3E0051710E /* Firebase.swift */; };
 		B50A88B21DC97EC60051710E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88B11DC97EC60051710E /* button.png */; };
 		B50A88B41DC981130051710E /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88B31DC981130051710E /* downArrow.png */; };
@@ -32,6 +29,10 @@
 		B50A88B91DC98EE80051710E /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88B71DC98EE80051710E /* facebook.png */; };
 		B50A88BA1DC98EE80051710E /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88B81DC98EE80051710E /* twitter.png */; };
 		B50A88BC1DC9986A0051710E /* Trolls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A88BB1DC9986A0051710E /* Trolls.swift */; };
+		B50A88BF1DCA26C70051710E /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88BD1DCA26C70051710E /* playButton.png */; };
+		B50A88C01DCA26C70051710E /* menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88BE1DCA26C70051710E /* menuButton.png */; };
+		B50A88C21DCA271A0051710E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C11DCA271A0051710E /* backButton.png */; };
+		B50A88C41DCA2A290051710E /* backButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C31DCA2A290051710E /* backButton2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,12 +50,9 @@
 		B50A88991DC7D9C90051710E /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
 		B50A889B1DC7DADF0051710E /* PostGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostGameScene.swift; sourceTree = "<group>"; };
 		B50A889D1DC7E0C60051710E /* phantom-fingers.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phantom-fingers.otf"; sourceTree = "<group>"; };
-		B50A88A11DC7E7B40051710E /* menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButton.png; sourceTree = "<group>"; };
-		B50A88A31DC7E9A70051710E /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
 		B50A88A71DC8D1CC0051710E /* bldg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bldg1.png; sourceTree = "<group>"; };
 		B50A88A91DC8D70F0051710E /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
 		B50A88AB1DC8D8C10051710E /* road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road.png; sourceTree = "<group>"; };
-		B50A88AD1DC8DAED0051710E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		B50A88AF1DC97A3E0051710E /* Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		B50A88B11DC97EC60051710E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		B50A88B31DC981130051710E /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrow.png; sourceTree = "<group>"; };
@@ -62,6 +60,10 @@
 		B50A88B71DC98EE80051710E /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		B50A88B81DC98EE80051710E /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		B50A88BB1DC9986A0051710E /* Trolls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trolls.swift; sourceTree = "<group>"; };
+		B50A88BD1DCA26C70051710E /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		B50A88BE1DCA26C70051710E /* menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButton.png; sourceTree = "<group>"; };
+		B50A88C11DCA271A0051710E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		B50A88C31DCA2A290051710E /* backButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,17 +108,10 @@
 		B50A888F1DC7C8790051710E /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B50A88B51DC9826E0051710E /* removeAds.png */,
-				B50A88B31DC981130051710E /* downArrow.png */,
 				B50A88A71DC8D1CC0051710E /* bldg1.png */,
 				B50A88AB1DC8D8C10051710E /* road.png */,
 				B50A88A91DC8D70F0051710E /* sky.png */,
-				B50A88A11DC7E7B40051710E /* menuButton.png */,
-				B50A88A31DC7E9A70051710E /* playButton.png */,
-				B50A88AD1DC8DAED0051710E /* backButton.png */,
-				B50A88B11DC97EC60051710E /* button.png */,
-				B50A88B71DC98EE80051710E /* facebook.png */,
-				B50A88B81DC98EE80051710E /* twitter.png */,
+				B50A88C51DCA2A3D0051710E /* Buttons */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -154,6 +149,22 @@
 				B50A889D1DC7E0C60051710E /* phantom-fingers.otf */,
 			);
 			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		B50A88C51DCA2A3D0051710E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B50A88B51DC9826E0051710E /* removeAds.png */,
+				B50A88B31DC981130051710E /* downArrow.png */,
+				B50A88BD1DCA26C70051710E /* playButton.png */,
+				B50A88BE1DCA26C70051710E /* menuButton.png */,
+				B50A88C11DCA271A0051710E /* backButton.png */,
+				B50A88C31DCA2A290051710E /* backButton2.png */,
+				B50A88B11DC97EC60051710E /* button.png */,
+				B50A88B71DC98EE80051710E /* facebook.png */,
+				B50A88B81DC98EE80051710E /* twitter.png */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,13 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50A88B21DC97EC60051710E /* button.png in Resources */,
-				B50A88A21DC7E7B40051710E /* menuButton.png in Resources */,
+				B50A88C41DCA2A290051710E /* backButton2.png in Resources */,
 				B50A88AA1DC8D7100051710E /* sky.png in Resources */,
 				B50A88B91DC98EE80051710E /* facebook.png in Resources */,
 				B50A88B41DC981130051710E /* downArrow.png in Resources */,
-				B50A88AE1DC8DAED0051710E /* backButton.png in Resources */,
+				B50A88BF1DCA26C70051710E /* playButton.png in Resources */,
+				B50A88C01DCA26C70051710E /* menuButton.png in Resources */,
 				B50A88AC1DC8D8C10051710E /* road.png in Resources */,
-				B50A88A41DC7E9A70051710E /* playButton.png in Resources */,
+				B50A88C21DCA271A0051710E /* backButton.png in Resources */,
 				B50A889E1DC7E0C60051710E /* phantom-fingers.otf in Resources */,
 				B50A88831DC7C8020051710E /* Main.storyboard in Resources */,
 				B50A88B61DC9826E0051710E /* removeAds.png in Resources */,

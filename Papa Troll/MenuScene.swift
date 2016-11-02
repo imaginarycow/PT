@@ -10,7 +10,7 @@ import SpriteKit
 
 class MenuScene: SKScene {
     
-    let backButton = SKSpriteNode(imageNamed: "backButton.png")
+    let backButton = SKSpriteNode(imageNamed: "backButton2.png")
     var levelNumber: SKLabelNode!
     var levelLabel: SKLabelNode!
     let downArrow = SKSpriteNode(imageNamed: "downArrow.png")
@@ -24,7 +24,7 @@ class MenuScene: SKScene {
     override func didMove(to view: SKView) {
         
         activeScene = self
-        setTitle(title: "Menu", currScene: self, color: customOrange)
+        setTitle(title: "Menu", currScene: self, color: customOrange, color2: .gray)
         setButtons()
         backgroundColor = .white
     }

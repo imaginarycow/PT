@@ -21,6 +21,8 @@ var scale:CGFloat = 0.0
 
 let customBlue = UIColor(red: 58/255, green: 120/255, blue: 192/255, alpha: 1.0)
 let customOrange = UIColor(red: 255/255, green: 166/255, blue: 0/255, alpha: 1.0)
+let customPurple = UIColor(red: 176/255, green: 52/255, blue: 198/255, alpha: 1.0)
+let customGreen = UIColor(red: 73/255, green: 175/255, blue: 93/255, alpha: 1.0)
 
 var level = 1
 var highLevel = 1
