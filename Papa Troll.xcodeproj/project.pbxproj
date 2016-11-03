@@ -33,6 +33,7 @@
 		B50A88C01DCA26C70051710E /* menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88BE1DCA26C70051710E /* menuButton.png */; };
 		B50A88C21DCA271A0051710E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C11DCA271A0051710E /* backButton.png */; };
 		B50A88C41DCA2A290051710E /* backButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C31DCA2A290051710E /* backButton2.png */; };
+		B50A88C71DCA742E0051710E /* cliff.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C61DCA742E0051710E /* cliff.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		B50A88BE1DCA26C70051710E /* menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButton.png; sourceTree = "<group>"; };
 		B50A88C11DCA271A0051710E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		B50A88C31DCA2A290051710E /* backButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton2.png; sourceTree = "<group>"; };
+		B50A88C61DCA742E0051710E /* cliff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cliff.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		B50A888F1DC7C8790051710E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B50A88C61DCA742E0051710E /* cliff.png */,
 				B50A88A71DC8D1CC0051710E /* bldg1.png */,
 				B50A88AB1DC8D8C10051710E /* road.png */,
 				B50A88A91DC8D70F0051710E /* sky.png */,
@@ -233,6 +236,7 @@
 				B50A88B91DC98EE80051710E /* facebook.png in Resources */,
 				B50A88B41DC981130051710E /* downArrow.png in Resources */,
 				B50A88BF1DCA26C70051710E /* playButton.png in Resources */,
+				B50A88C71DCA742E0051710E /* cliff.png in Resources */,
 				B50A88C01DCA26C70051710E /* menuButton.png in Resources */,
 				B50A88AC1DC8D8C10051710E /* road.png in Resources */,
 				B50A88C21DCA271A0051710E /* backButton.png in Resources */,

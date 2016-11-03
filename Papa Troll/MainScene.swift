@@ -19,7 +19,7 @@ class MainScene: SKScene {
         setScale()
         setTitle(title: "Papa Troll", currScene: self, color: customPurple)
         setButtons()
-        //setBackground()
+        setBackground()
         backgroundColor = .white
         checkForNewInstall()
     }
@@ -29,20 +29,20 @@ class MainScene: SKScene {
         let sky = SKSpriteNode(imageNamed: "sky.png")
         sky.zPosition = 1
         sky.position = CGPoint(x: self.size.width/2, y: self.size.height/2)
-        addChild(sky)
+        //addChild(sky)
         
         let road = SKSpriteNode(imageNamed: "road.png")
         road.zPosition = 2
         road.size = CGSize(width: road.size.width, height: 100.0)
         road.position = CGPoint(x: self.size.width/2, y: 0.0 + (road.size.height/2))
-        addChild(road)
+        //addChild(road)
         
-        let bldg1 = SKSpriteNode(imageNamed: "bldg1.png")
-        bldg1.zPosition = 2
-        bldg1.anchorPoint = CGPoint(x: activeScene.anchorPoint.x, y: activeScene.anchorPoint.y)
-        bldg1.size = CGSize(width: self.size.width * 0.7, height: self.size.height * 0.8)
-        bldg1.position = CGPoint(x: self.size.width/2 - (bldg1.size.width/2), y: 0.0 + road.size.height)
-        addChild(bldg1)
+        let cliffSize:CGFloat = 100.0 * scale
+        let cliff = SKSpriteNode(imageNamed: "cliff.png")
+        cliff.size = CGSize(width: cliffSize, height: cliffSize * 2)
+        cliff.zPosition = 2
+        cliff.position = CGPoint(x: 0.0 + cliff.size.width/2, y: self.size.height * 0.5)
+        addChild(cliff)
         
         
     }
