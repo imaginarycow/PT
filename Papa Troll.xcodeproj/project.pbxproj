@@ -34,6 +34,8 @@
 		B50A88C21DCA271A0051710E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C11DCA271A0051710E /* backButton.png */; };
 		B50A88C41DCA2A290051710E /* backButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C31DCA2A290051710E /* backButton2.png */; };
 		B50A88C71DCA742E0051710E /* cliff.png in Resources */ = {isa = PBXBuildFile; fileRef = B50A88C61DCA742E0051710E /* cliff.png */; };
+		B5104E261DCCCD4B00709FB7 /* monster1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5104E251DCCCD4B00709FB7 /* monster1.png */; };
+		B5104E2A1DCCD5A700709FB7 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = B5104E291DCCD5A700709FB7 /* ground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		B50A88C11DCA271A0051710E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		B50A88C31DCA2A290051710E /* backButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton2.png; sourceTree = "<group>"; };
 		B50A88C61DCA742E0051710E /* cliff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cliff.png; sourceTree = "<group>"; };
+		B5104E251DCCCD4B00709FB7 /* monster1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster1.png; sourceTree = "<group>"; };
+		B5104E291DCCD5A700709FB7 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 		B50A888F1DC7C8790051710E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B5104E291DCCD5A700709FB7 /* ground.png */,
+				B5104E251DCCCD4B00709FB7 /* monster1.png */,
 				B50A88C61DCA742E0051710E /* cliff.png */,
 				B50A88A71DC8D1CC0051710E /* bldg1.png */,
 				B50A88AB1DC8D8C10051710E /* road.png */,
@@ -240,12 +246,14 @@
 				B50A88C01DCA26C70051710E /* menuButton.png in Resources */,
 				B50A88AC1DC8D8C10051710E /* road.png in Resources */,
 				B50A88C21DCA271A0051710E /* backButton.png in Resources */,
+				B5104E2A1DCCD5A700709FB7 /* ground.png in Resources */,
 				B50A889E1DC7E0C60051710E /* phantom-fingers.otf in Resources */,
 				B50A88831DC7C8020051710E /* Main.storyboard in Resources */,
 				B50A88B61DC9826E0051710E /* removeAds.png in Resources */,
 				B50A88851DC7C8020051710E /* Assets.xcassets in Resources */,
 				B50A88BA1DC98EE80051710E /* twitter.png in Resources */,
 				B50A88A81DC8D1CC0051710E /* bldg1.png in Resources */,
+				B5104E261DCCCD4B00709FB7 /* monster1.png in Resources */,
 				B50A88881DC7C8020051710E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +438,7 @@
 				B50A888E1DC7C8020051710E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

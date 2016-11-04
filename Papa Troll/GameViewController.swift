@@ -24,12 +24,12 @@ class GameViewController: UIViewController {
         skView.isMultipleTouchEnabled = true
         skView.showsFPS = false
         skView.showsNodeCount = false
-        skView.showsPhysics = false
+        skView.showsPhysics = true
         /* Sprite Kit applies additional optimizations to improve rendering performance */
         skView.ignoresSiblingOrder = true
         
-        scene.physicsWorld.gravity = CGVector(dx: 0.0,dy: 0.0)
-        scene.physicsBody?.affectedByGravity = false
+        //scene.physicsWorld.gravity = CGVector(dx: 0.0,dy: 0.0)
+        scene.physicsBody?.affectedByGravity = true
         
         /* Set the scale mode to scale to fit the window */
         scene.size = skView.bounds.size

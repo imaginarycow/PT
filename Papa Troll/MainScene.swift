@@ -12,6 +12,7 @@ class MainScene: SKScene {
     
     let playButton = SKSpriteNode(imageNamed: "playButton.png")
     let menuButton = SKSpriteNode(imageNamed: "menuButton.png")
+    let cliff = SKSpriteNode(imageNamed: "cliff.png")
     
     override func didMove(to view: SKView) {
 
@@ -22,26 +23,45 @@ class MainScene: SKScene {
         setBackground()
         backgroundColor = .white
         checkForNewInstall()
+        setTroll()
+    }
+    
+    func setTroll() {
+        
+        let newTroll = Trolls.new(imageName: "monster1.png")
+        newTroll.position = CGPoint(x: 0.0 + newTroll.size.width/2, y: cliff.position.y + (cliff.size.height/2) + newTroll.size.height/2)
+        addChild(newTroll)
+        
+        delay(2.0, closure: {
+        
+            newTroll.physicsBody?.applyForce(CGVector(dx: 500.0, dy: 0.0))
+        })
     }
     
     func setBackground() {
+        
+        let ground = SKSpriteNode(imageNamed: "ground.png")
+        ground.size = CGSize(width: self.size.width, height: 100.0)
+        ground.zPosition = 2
+        ground.position = CGPoint(x: self.size.width/2, y: 0.0 + ground.size.height/2)
+        ground.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: ground.size.width, height: ground.size.height))
+        ground.physicsBody?.affectedByGravity = false
+        ground.physicsBody?.isDynamic = false
+        addChild(ground)
         
         let sky = SKSpriteNode(imageNamed: "sky.png")
         sky.zPosition = 1
         sky.position = CGPoint(x: self.size.width/2, y: self.size.height/2)
         //addChild(sky)
         
-        let road = SKSpriteNode(imageNamed: "road.png")
-        road.zPosition = 2
-        road.size = CGSize(width: road.size.width, height: 100.0)
-        road.position = CGPoint(x: self.size.width/2, y: 0.0 + (road.size.height/2))
-        //addChild(road)
-        
         let cliffSize:CGFloat = 100.0 * scale
-        let cliff = SKSpriteNode(imageNamed: "cliff.png")
+        
         cliff.size = CGSize(width: cliffSize, height: cliffSize * 2)
         cliff.zPosition = 2
         cliff.position = CGPoint(x: 0.0 + cliff.size.width/2, y: self.size.height * 0.5)
+        cliff.physicsBody = SKPhysicsBody(texture: SKTexture(imageNamed: "cliff.png"), size: CGSize(width: cliff.size.width, height: cliff.size.height))
+        cliff.physicsBody?.affectedByGravity = false
+        cliff.physicsBody?.isDynamic = false
         addChild(cliff)
         
         
@@ -54,6 +74,9 @@ class MainScene: SKScene {
         playButton.zPosition = 5
         playButton.size = CGSize(width: buttonSize, height: buttonSize)
         playButton.position = CGPoint(x: self.size.width/2, y: self.size.height * 0.5)
+        playButton.physicsBody = SKPhysicsBody(circleOfRadius: buttonSize/2)
+        playButton.physicsBody?.affectedByGravity = false
+        playButton.physicsBody?.isDynamic = false
         addChild(playButton)
         
         menuButton.zPosition = 5
